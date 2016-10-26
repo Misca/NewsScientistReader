@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_new_scientist"
+        android:icon="@drawable/ic_video_library_black_24dp"
+        android:title="@string/drawer_title_articles"/>
+    <item
+        android:id="@+id/nav_saved_articles"
+        android:icon="@drawable/ic_video_call_black_24dp"
+        android:title="@string/drawer_title_saved_articles"/>
+  </group>
+
+</menu>
